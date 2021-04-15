@@ -1,0 +1,36 @@
+.header-container{
+    height:950px;
+    background-image: url('../../../images/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+  
+}
+
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.header-container{
+    animation:transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.header-content{
+    animation:transitionIn 0.75s;
+}
