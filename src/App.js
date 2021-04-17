@@ -16,6 +16,7 @@ import AddReview from './components/AddReview/AddReview';
 import AddCourse from './components/AddCourse/AddCourse';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ManageService from './components/ManageService/ManageService';
+import AddEmail from './components/AddEmail/AddEmail';
 
 export const UserContext = createContext();
 
@@ -48,6 +49,9 @@ function App() {
         </Route>
         <Route path='/manage'>
           <ManageService></ManageService>
+        </Route>
+        <Route path='/email'>
+          <AddEmail></AddEmail>
         </Route>
         <Route path="/login">
           <LogIn></LogIn>
