@@ -14,6 +14,8 @@ import LogIn from './components/LogIn/LogIn';
 import BookList from './components/BookList/BookList';
 import AddReview from './components/AddReview/AddReview';
 import AddCourse from './components/AddCourse/AddCourse';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import ManageService from './components/ManageService/ManageService';
 
 export const UserContext = createContext();
 
@@ -29,9 +31,9 @@ function App() {
         <Route path="/home">
           <Home></Home>
         </Route>
-        <Route path='/book/:id'>
+        <PrivateRoute path='/book/:id'>
           <Book></Book>
-        </Route>
+        </PrivateRoute>
         <Route path='/book'>
           <Book></Book>
         </Route>
@@ -43,6 +45,9 @@ function App() {
         </Route>
         <Route path='/addCourse'>
           <AddCourse></AddCourse>
+        </Route>
+        <Route path='/manage'>
+          <ManageService></ManageService>
         </Route>
         <Route path="/login">
           <LogIn></LogIn>
