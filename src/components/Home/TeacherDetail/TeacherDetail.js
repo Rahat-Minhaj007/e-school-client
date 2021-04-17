@@ -3,7 +3,7 @@ import React from 'react';
 const TeacherDetail = ({ teacher }) => {
     return (
         <div className="col-md-4 text-center">
-            <div style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)" }} class="card serviceCard">
+            <div style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)" }} class="card teacherCard">
                 <div class="card-body ">
                     <div className="d-flex justify-content-around py-3">
                         <img style={{ width: '30%', borderRadius: '50%', height: "30%" }} src={teacher.img} alt="" />

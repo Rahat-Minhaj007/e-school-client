@@ -1,0 +1,67 @@
+.checkOutForm {
+    margin-top: 140px;
+}
+
+.book .book-input-field input[type="text"], .book textarea {
+    border: 1px solid #e0e0e0;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.book .book-input-field input[type="number"], .book textarea {
+    border: 1px solid #e0e0e0;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.checkOutForm {
+    background-image: linear-gradient(200deg, #6f42c1, #a388d4);
+    height: 810px;
+    border-radius: 10px;
+    color: white
+}
+.courseForm{
+    background-image: linear-gradient(200deg, #6f42c1, #a388d4);
+    height: 700px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 45px;
+}
+
+.book {
+    margin-left: 200px;
+}
+
+.payMent {
+    margin-left: 150px;
+}
+
+.paymentForm {
+    background-image: linear-gradient(200deg, #774eff, #9f3efa);
+    height: 380px;
+    margin-top: 315px;
+    border-radius: 10px;
+    color: rgb(10, 6, 6)
+}
+
+@media (max-width:768px) {
+    .book {
+        margin-left: 0px;
+    }
+    .review {
+        margin-right: 100px;
+    }
+}
+
+.review {
+    margin-left: 300px;
+}
+
+@media (max-width:768px) {
+    
+    .review {
+        margin-left: 10px;
+    }
+}

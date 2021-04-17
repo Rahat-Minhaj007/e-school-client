@@ -1,0 +1,25 @@
+.sidebar {
+    background-image:linear-gradient(200deg,#844ee9,#a97bff);
+    color: #fff !important;
+    height: 100vh;
+    text-align: justify;
+    font-weight: 600;
+    padding:10px;
+    
+    
+    
+    
+}
+.sidebar ul li{
+    margin-top:20px;
+    list-style: none;
+    border:none;
+    padding:30px;
+    font-size:18px;
+    cursor:pointer;
+    
+}
+.Sidebar ul li .bar{
+    text-decoration:none;
+    color:white;
+}

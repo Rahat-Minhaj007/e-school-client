@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import winson from '../../../images/Ellipse 1.png';
 import fiona from '../../../images/Ellipse 2.png';
@@ -7,20 +7,28 @@ import TestimonialDetail from '../TestimonialDetail/TestimonialDetail';
 
 
 const Testimonial = () => {
-    const testimonialData = [
-        {
-            name: 'Winson Herry',
-            img: winson
-        },
-        {
-            name: 'Fiona Smith',
-            img: fiona
-        },
-        {
-            name: 'Allison Tailor',
-            img: alison
-        }
-    ]
+    // const testimonialData = [
+    //     {
+    //         name: 'Winson Herry',
+    //         img: winson
+    //     },
+    //     {
+    //         name: 'Fiona Smith',
+    //         img: fiona
+    //     },
+    //     {
+    //         name: 'Allison Tailor',
+    //         img: alison
+    //     }
+    // ]
+
+    const [testimonialData, setTestimonialData] = useState([]);
+    useEffect(() => {
+        fetch("http://localhost:5055/review")
+            .then((res) => res.json())
+            .then((data) => setTestimonialData(data));
+    }, []);
+
     return (
         <section className="testimonial mt-5 pt-5 my-5">
             <div className="container-fluid">
