@@ -2,8 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import './Sidebar.css';
 import { Link } from 'react-router-dom';
 import icon from '../../../images/footer.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGripHorizontal, faFileAlt, faEnvelope, faHome, faShoppingCart, faCommentDots, faFile, faTasks } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGripHorizontal, faFileAlt, faEnvelope, faHome, faShoppingCart, faCommentDots, faFile, faTasks,faListOl } from '@fortawesome/free-solid-svg-icons';
 import { UserContext } from '../../../App';
 
 
@@ -43,6 +43,7 @@ const Sidebar = () => {
 
                 {
                     admin !== undefined && <div>
+                        <li ><Link style={{ textDecoration: "none", color: "white" }} to='/orderList'>  <FontAwesomeIcon icon={faListOl} /> Order List</Link></li>
                         <li ><Link style={{ textDecoration: "none", color: "white" }} to='/addCourse'>  <FontAwesomeIcon icon={faFile} /> Add Courses</Link></li>
                         <li ><Link style={{ textDecoration: "none", color: "white" }} to='/manage'>  <FontAwesomeIcon icon={faTasks} /> Manage Courses</Link></li>
                         <li ><Link style={{ textDecoration: "none", color: "white" }} to='/email'>  <FontAwesomeIcon icon={faEnvelope} /> Add Admin Email</Link></li>

@@ -18,6 +18,7 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ManageService from './components/ManageService/ManageService';
 import AddEmail from './components/AddEmail/AddEmail';
 import Dashboard from './components/Dashboard/Dashboard';
+import OrderList from './components/OrderList/OrderList';
 
 export const UserContext = createContext();
 
@@ -41,6 +42,9 @@ function App() {
           </PrivateRoute>
           <PrivateRoute path='/bookList'>
             <BookList></BookList>
+          </PrivateRoute>
+          <PrivateRoute path='/orderList'>
+            <OrderList></OrderList>
           </PrivateRoute>
           <PrivateRoute  path='/addReview'>
             <AddReview></AddReview>

@@ -34,7 +34,7 @@ const useOptions = () => {
   return options;
 };
 
-const SplitCardForm = ({ handlePayment }) => {
+const SplitCardForm = ({ handlePayment, orderService }) => {
   const [paymentError, setPaymentError] = useState(null);
   const [paymentSuccess, setPaymentSuccess] = useState(null);
   const stripe = useStripe();
@@ -143,6 +143,7 @@ const SplitCardForm = ({ handlePayment }) => {
             />
           </label>
           <br />
+          <p>You have to pay $ {orderService?.price}</p>
           <button className='btn btn-dark mt-2 fw-bold text-uppercase mb-3' type="submit" disabled={!stripe}>
             Pay
       </button>

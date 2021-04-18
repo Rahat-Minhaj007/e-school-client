@@ -6,9 +6,6 @@ import checkout from '../../../src/images/checkout1.png';
 import { useForm } from "react-hook-form";
 import ProcessPayment from '../ProcessPayment/ProcessPayment';
 import { UserContext } from '../../App';
-import sci from '../../images/science.png';
-import com from '../../images/commerce.png';
-import it from '../../images/code .png';
 
 
 
@@ -138,7 +135,7 @@ const Book = () => {
             </div>
 
             <div style={{ display: shippingData ? 'block' : 'none' }} className="col-md-4 paymentForm p-4 ml-3">
-                <ProcessPayment handlePayment={handlePaymentSuccess}></ProcessPayment>
+                <ProcessPayment handlePayment={handlePaymentSuccess} orderService={orderService}></ProcessPayment>
             </div>
 
             <div className="col-md-4 d-flex align-items-center">

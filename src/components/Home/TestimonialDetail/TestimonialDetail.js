@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar} from '@fortawesome/free-solid-svg-icons';
 
 const TestimonialDetail = ({ testimonial }) => {
     return (
@@ -11,6 +13,7 @@ const TestimonialDetail = ({ testimonial }) => {
                         <div className="py-2">
                             <h5 style={{ color: "#40475B" }}>{testimonial.name}</h5>
                             <p>{testimonial?.company}</p>
+                            <h6><FontAwesomeIcon style={{color:'gold'}} icon={faStar} /> <FontAwesomeIcon style={{color:'gold'}} icon={faStar} /> <FontAwesomeIcon style={{color:'gold'}} icon={faStar} /> <FontAwesomeIcon style={{color:'gold'}} icon={faStar} /> <FontAwesomeIcon style={{color:'gold'}} icon={faStar} /></h6>
                         </div>
                     </div>
 

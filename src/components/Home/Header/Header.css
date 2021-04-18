@@ -36,10 +36,11 @@
 }
 
 .blog{
-    background-image:linear-gradient(200deg,whiteSmoke,whiteSmoke);
+    background-image:linear-gradient(200deg,rgb(197, 120, 248),rgb(245, 123, 41),);
     background-size: cover;
     background-repeat: no-repeat;
     position:relative;
+    text-align: justify;
 }
 .blog img{
     width:100%;
