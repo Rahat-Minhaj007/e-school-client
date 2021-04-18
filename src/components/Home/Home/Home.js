@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 import Service from '../Service/Service';
 import Teacher from '../Teacher/Teacher';
 import Testimonial from '../Testimonial/Testimonial';
+import Blog from '../Blog/Blog';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
            <Teacher></Teacher>
            <ContactUs></ContactUs>
            <Testimonial></Testimonial>
+           <Blog></Blog>
            <Footer></Footer>
         </div>
     );

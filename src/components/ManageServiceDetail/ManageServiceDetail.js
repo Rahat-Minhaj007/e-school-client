@@ -10,7 +10,7 @@ const ManageServiceDetail = (props) => {
         if (window.confirm('Do you want to delete this item?')) {
 
 
-            fetch(`http://localhost:5055/delete/${id}`, {
+            fetch(`https://whispering-eyrie-86706.herokuapp.com/delete/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

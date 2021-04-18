@@ -12,7 +12,7 @@ const AddEmail = () => {
                admin:data.email
         };
 
-        const url = `http://localhost:5055/addEmail`;
+        const url = `https://whispering-eyrie-86706.herokuapp.com/addEmail`;
 
         fetch(url, {
             method: "POST",
@@ -29,7 +29,7 @@ const AddEmail = () => {
 
  
     return (
-        <div className='container-fluid row book-container'>
+        <div className=' row book-container'>
             <div className="col-md-2">
                 <Sidebar></Sidebar>
             </div>

@@ -6,12 +6,12 @@ const ManageService = () => {
 
     const [manageData, setManageData] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5055/course")
+        fetch("https://whispering-eyrie-86706.herokuapp.com/course")
             .then((res) => res.json())
             .then((data) => setManageData(data));
     }, [manageData]);
     return (
-        <div className='container-fluid row book-container'>
+        <div className='row book-container'>
         <div className="col-md-2">
             <Sidebar></Sidebar>
         </div>

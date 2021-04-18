@@ -9,14 +9,14 @@ const BookList = () => {
     const { email } = loggedInUser;
     const [orderData, setOrderData] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5055/order")
+        fetch("https://whispering-eyrie-86706.herokuapp.com/order")
             .then((res) => res.json())
             .then((data) => setOrderData(data));
     }, []);
 
     const specificUserOrder = orderData.filter((user) => user.email === email);
     return (
-        <div className='container-fluid row book-container'>
+        <div className=' row book-container'>
             <div className="col-md-2">
                 <Sidebar></Sidebar>
             </div>

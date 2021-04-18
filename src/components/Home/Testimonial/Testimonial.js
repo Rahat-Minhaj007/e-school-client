@@ -24,13 +24,13 @@ const Testimonial = () => {
 
     const [testimonialData, setTestimonialData] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5055/review")
+        fetch("https://whispering-eyrie-86706.herokuapp.com/review")
             .then((res) => res.json())
             .then((data) => setTestimonialData(data));
     }, []);
 
     return (
-        <section className="testimonial mt-5 pt-5 my-5">
+        <section id='review' className="testimonial mt-5 pt-5 my-5">
             <div className="container-fluid">
                 <div className="text-center">
                     <h2 style={{ color: "#40475B" }}>TESTIMONIAL</h2>

@@ -5,7 +5,7 @@ import contact from '../../../images/contact.png'
 const ContactUs = () => {
     return (
 
-        <section className='contact-container mt-5 pt-5'>
+        <section id='contact' className='contact-container mt-5 pt-5'>
             <div className="container-fluid">
                 <h2 className='text-center text-light'>CONTACT US</h2>
                 <div className='row mt-5 py-5 d-flex justify-content-center'>

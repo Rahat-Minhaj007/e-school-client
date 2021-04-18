@@ -19,7 +19,7 @@ const AddCourse = () => {
             imageURL: imageURL,
         };
 
-        const url = `http://localhost:5055/addCourse`;
+        const url = `https://whispering-eyrie-86706.herokuapp.com/addCourse`;
 
         fetch(url, {
             method: "POST",
@@ -51,7 +51,7 @@ const AddCourse = () => {
             });
     };
     return (
-        <div className='container-fluid row book-container'>
+        <div className=' row book-container'>
             <div className="col-md-2">
                 <Sidebar></Sidebar>
             </div>

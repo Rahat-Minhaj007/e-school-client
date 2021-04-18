@@ -20,7 +20,7 @@ const Book = () => {
     const { id } = useParams();
     const [serviceData, setServiceData] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5055/course")
+        fetch("https://whispering-eyrie-86706.herokuapp.com/course")
             .then((res) => res.json())
             .then((data) => setServiceData(data));
     }, []);
@@ -55,7 +55,7 @@ const Book = () => {
             orderTime: new Date().toString("dddd, mmmm dS, yyyy, g:i A TT")
         }
 
-        const url = `http://localhost:5055/addOrder`;
+        const url = `https://whispering-eyrie-86706.herokuapp.com/addOrder`;
         fetch(url, {
             method: "POST",
             headers: {
@@ -80,7 +80,7 @@ const Book = () => {
 
 
     return (
-        <div className='container-fluid row book-container'>
+        <div className=' row book-container'>
             <div className="col-md-2">
                 <Sidebar></Sidebar>
             </div>

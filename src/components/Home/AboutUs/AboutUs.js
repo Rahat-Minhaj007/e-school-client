@@ -4,7 +4,7 @@ import about from '../../../images/about1.jpg';
 
 const AboutUs = () => {
     return (
-       <section className="about-container container py-5  mt-5">
+       <section id='about' className="about-container container py-5  mt-5">
            <div className="row d-flex justify-content-between">
                <div className="col-md-5 aboutImg">
                    <img style={{width:"450px",height:"400px"}} src={about} alt=""/>

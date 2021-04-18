@@ -12,7 +12,7 @@ const Sidebar = () => {
 
     const [adminData, setAdminData] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5055/email")
+        fetch("https://whispering-eyrie-86706.herokuapp.com/email")
             .then((res) => res.json())
             .then((data) => setAdminData(data));
     }, []);

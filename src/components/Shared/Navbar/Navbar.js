@@ -20,22 +20,25 @@ const Navbar = () => {
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
-                            <Link class="nav-link me-5 active text-light fw-bold fs-6" aria-current="page" href="#">Home</Link>
+                            <Link class="nav-link me-5 active text-light fw-bold fs-6" aria-current="page" to="/home">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light fw-bold fs-6" href="#">About Us</Link>
+                            <a class="nav-link me-5 text-light fw-bold fs-6" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light fw-bold fs-6" href="#">Services</Link>
+                            <a class="nav-link me-5 text-light fw-bold fs-6" href="#course">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light fw-bold fs-6" href="#">Reviews</Link>
+                            <Link class="nav-link me-5 text-light fw-bold fs-6" to="/dashboard">Dashboard</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light fw-bold fs-6" href="#">Blog</Link>
+                            <a class="nav-link me-5 text-light fw-bold fs-6" href="#teacher">Instructors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-5 text-light fw-bold fs-6" href="#review">Reviews</a>
                         </li>
                         <li class="nav-item ">
-                            <Link class="nav-link me-5 text-light fw-bold fs-6" href="#">Contact Us</Link>
+                            <a class="nav-link me-5 text-light fw-bold fs-6" href="#contact">Contact Us</a>
                         </li>
                         <li class="nav-item pr-3">
                             <a href={name?.length > 0 ? '/home': '/login'}><button className="btn btn-brand fw-bold">{name?.length > 0 ? 'Log Out' : 'Log In'}</button></a>

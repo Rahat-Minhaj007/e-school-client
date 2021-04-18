@@ -24,7 +24,7 @@ const Teacher = () => {
         }
     ]
     return (
-        <section className="teacher mt-5 pt-5 my-5">
+        <section id='teacher' className="teacher mt-5 pt-5 my-5">
             <div className="container-fluid ">
                 <div className="d-flex justify-content-end">
 

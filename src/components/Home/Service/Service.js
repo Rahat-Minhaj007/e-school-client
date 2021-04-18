@@ -43,13 +43,13 @@ const Service = () => {
 
     const [serviceData, setServiceData] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5055/course")
+        fetch("https://whispering-eyrie-86706.herokuapp.com/course")
             .then((res) => res.json())
             .then((data) => setServiceData(data));
     }, []);
 
     return (
-        <section className="service-container mt-5 py-5">
+        <section id='course' className="service-container mt-5 py-5">
             <div className='text-center'>
                 <h2 style={{ color: '#fff' }}>WHAT WE OFFER</h2>
                 <h6 className='py-3' style={{ color: '#fff' }}>In this section, you can learn more about the services E-SCHOOL offers to its clients. We are always ready to provide you with quality educational services.</h6>
