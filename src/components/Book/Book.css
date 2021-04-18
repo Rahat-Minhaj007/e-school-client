@@ -22,8 +22,15 @@
     border-radius: 10px;
     color: white
 }
-.courseForm{
-    background-image: linear-gradient(200deg, #6f42c1, #a388d4);
+
+.tableOrder {
+    background-image: linear-gradient(160deg, #ba95ff, #a388d4);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.courseForm {
+    background-image: linear-gradient(200deg, #9375cc, #a388d4);
     height: 700px;
     border-radius: 10px;
     color: white;
@@ -40,7 +47,7 @@
 
 .paymentForm {
     background-image: linear-gradient(200deg, #774eff, #9f3efa);
-    height: 380px;
+    height: 430px;
     margin-top: 315px;
     border-radius: 10px;
     color: rgb(10, 6, 6)
@@ -60,7 +67,6 @@
 }
 
 @media (max-width:768px) {
-    
     .review {
         margin-left: 10px;
     }

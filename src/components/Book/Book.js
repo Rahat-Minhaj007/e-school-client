@@ -47,6 +47,7 @@ const Book = () => {
         const orderDetails = {
             ...loggedInUser,
             shipment: shippingData,
+            status:'pending',
             paymentId,
             orderService,
             orderTime: new Date().toString("dddd, mmmm dS, yyyy, g:i A TT")

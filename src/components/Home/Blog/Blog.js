@@ -5,7 +5,7 @@ import blog3 from '../../../images/blog3.jpg';
 
 const Blog = () => {
     return (
-        <section className="container-fluid blog mt-5">
+        <section className=" blog mt-5">
             <div className="row">
 
                 <div className="col-md-6">
