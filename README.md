@@ -12,8 +12,9 @@ E-SCHOOL is a full-stack MERN based project.In this project i used
 6.MongoDB
 7.Express
 8.Node JS
-.Payment gate way(strip)
+9.Payment gate way(strip).
 In this project I'm trying to implement an E-Learning web site .Just because we can get quality educational service just from home. 
+
 
 
 ### E-SCHOOL Live Site 
@@ -64,10 +65,6 @@ We have Used React BootStrap to design our site also to make it responsive.
 ### `Font Awesome Icons`
 
 Font Awesome Icons have been used to design.
-
-### `Material UI`
-
-Material UI is used for designing.
 
 ### `HTML & CSS`
 
