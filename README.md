@@ -27,10 +27,10 @@ In this project I'm trying to implement an E-Learning web site .Just because we 
 
  [E-SCHOOL Live Site](https://e-school2.netlify.app) 
  
- ### E-SCHOOL Server Site 
+ ### E-SCHOOL Server Site Code 
 
 
- [E-SCHOOL Server Site](https://whispering-eyrie-86706.herokuapp.com/) 
+ [E-SCHOOL Server Site Code](https://github.com/Rahat-Minhaj007/e-school-server) 
  
  
  ### Technologies Used for Building the site
