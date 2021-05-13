@@ -13,7 +13,12 @@ E-SCHOOL is a full-stack MERN based project.In this project i used
 7.Express
 8.Node JS
 9.Payment gate way(strip).
-In this project I'm trying to implement an E-Learning web site .Just because we can get quality educational service just from home. 
+In this project I'm trying to implement an E-Learning web site .Just because we can get quality educational service just from home.
+<br/>
+### Key Features :
+1.This is an online course based secured dynamic website where user can log in & book their expected courses.
+2.User can give review & this review will save on database & show on the home page testimonial section. A user can pay using payment gateway(stripe) for their booked course.
+3.Admin can manage the course list can add new admin, can change order status.
 
 
 
@@ -22,8 +27,13 @@ In this project I'm trying to implement an E-Learning web site .Just because we 
 
  [E-SCHOOL Live Site](https://e-school2.netlify.app) 
  
+ ### E-SCHOOL Server Site 
+
+
+ [E-SCHOOL Server Site](https://whispering-eyrie-86706.herokuapp.com/) 
  
- ##Technologies Used for Building the site
+ 
+ ### Technologies Used for Building the site
 
 
 ### `MongoDB`
